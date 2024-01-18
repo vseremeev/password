@@ -1,0 +1,17 @@
+dialog {
+   padding: 40px;
+   border: 0;
+   box-sizing: border-box;
+   border-radius: 5px;
+   background-color: #fff;
+   box-shadow: 0px 4px 8px -2px rgba(9, 30, 66, 0.25), 0px 0px 0px 1px rgba(9, 30, 66, 0.08);
+}
+
+dialog::backdrop {
+   background: rgba(0, 0, 0, 0.3);
+}
+
+dialog h1 {
+   margin: 0 0 30px;
+   font-size: 20px;
+}
